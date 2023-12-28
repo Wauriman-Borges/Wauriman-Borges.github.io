@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wauriman Borges BJJ</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+  </head>
+
+  <body class="is-preload">
+    <!-- NAV BAR -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a class="navbar-brand" href="/wb-bjj/">
+          <!-- Wauriman Borges Brazilian Jiu-Jitsu -->
+          <img class="logo-navbar" src="images/Logo-WB.jpeg" />
+        </a>
+        <div class="nav-right">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="/wb-bjj/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/wb-bjj/academy" class="nav-link">Academy</a>
+            </li>
+            <li class="nav-item">
+              <a href="/wb-bjj/schedule" class="nav-link">Schedule</a>
+            </li>
+          </ul>
+        </div>
+        <div class="hamburguer-icon" onclick="toggleMenu()">&#9776;</div>
+      </div>
+    </nav>
+
+    <section class="main style1">
+      <div class="container">
+        <div class="row gtr-150">
+          <div class="col-6 col-12-medium imp-medium">
+            <header class="major">
+              <h2 class="title">The Academy</h2>
+            </header>
+            <p>
+              Welcome to a world-class Brazilian Jiu-Jitsu experience at
+              Wauriman Borges BJJ. Our environment is safe, clean, and enjoyable
+              for enthusiasts of all ages and skill levels. Our team of expert,
+              dedicated instructors, celebrated for their achievements and
+              handpicked for their expertise, are here to guide you towards your
+              goals. With a training approach that's both knowledgeable and
+              engaging, you'll find immense value in learning the art of
+              Brazilian Jiu-Jitsu and Self Defense.
+            </p>
+            <p>
+              Classes are led by Professor Wauriman Borges, 3rd degree black
+              belt and 2x IBJJF Pan-American champion (2008 and 2022). Professor
+              Borges, a passionate competitor and coach, is equally committed to
+              delivering the highest quality instruction to his students.
+            </p>
+            <p>
+              Lineage: Mitsuyo Maeda > Carlos Gracie > Helio
+              Gracie > Carlos Gracie Jr. > Adilson 'Bitta' Lima > Marco Nascimento >
+              Wauriman Borges
+            </p>
+          </div>
+          <div class="col-6 col-12-medium">
+            <div class="carousel-container">
+              <div class="carousel-slide">
+                <img
+                  class="images-carousel"
+                  src="images/classes/289767109_157853163475958_7061121265291011238_n.jpg"
+                  alt="Image 1"
+                  onerror="this.src='images/Logo-WB.jpeg';"
+                />
+              </div>
+              <div class="carousel-slide">
+                <!-- Add the path to your second image here -->
+                <img
+                  class="images-carousel"
+                  src="images/classes/313184966_186827330581794_3428773458551612720_n.jpg"
+                  alt="Image 2"
+                  onerror="this.src='images/Logo-WB.jpeg';"
+                />
+              </div>
+              <div class="carousel-slide">
+                <!-- Add the path to your third image here -->
+                <img
+                  class="images-carousel"
+                  src="images/classes/290179056_158393893421885_2184297794364623602_n.jpg"
+                  alt="Image 3"
+                  onerror="this.src='images/Logo-WB.jpeg';"
+                />
+              </div>
+              <div class="carousel-slide">
+                <!-- Add the path to your third image here -->
+                <img
+                  class="images-carousel"
+                  src="images/classes/278990696_140279971899944_7725668367496373731_n.jpg"
+                  alt="Image 4"
+                  onerror="this.src='images/Logo-WB.jpeg';"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer-container">
+        <div class="column logo-container">
+          <img class="logo" src="images/Logo-WB.jpeg" />
+        </div>
+        <div class="column quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/wb-bjj/academy">Academy</a></li>
+            <li><a href="/wb-bjj/schedule">Schedule</a></li>
+            <li><a href="/wb-bjj/schedule">Classes</a></li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Contact</h3>
+          <p>
+            356 El Camino Real<br />San Bruno, CA 94066<br />
+            Phone: <a class="phone-link" href="tel:+6505022902">(650)502-2902</a
+            ><br />
+          </p>
+        </div>
+        <div class="column logo-container">
+          <img class="logo" src="images/Logo-pitbull.jpeg" />
+        </div>
+      </div>
+      <ul class="icons">
+        <li>
+          <a
+            href="https://www.facebook.com/dojohiguma/"
+            class="icon brands alt fa-facebook-f"
+            ><span class="label">Facebook</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/dojohiguma"
+            class="icon brands alt fa-instagram"
+            ><span class="label">Instagram</span></a
+          >
+        </li>
+        <li>
+          <a
+            href="mailto:waurimanborges@gmail.com"
+            class="icon solid alt fa-envelope"
+          >
+            <span class="label">Email</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="copyright">
+        <li>
+          © Copyright <span id="currentYear"></span> | Wauriman Borges BJJ | All
+          Rights Reserved.
+        </li>
+      </ul>
+    </section>
+
+    <!-- Scripts -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = currentYear;
+      });
+    </script>
+    <script>
+      function toggleMenu() {
+        var navRight = document.querySelector(".nav-right");
+        navRight.classList.toggle("show");
+      }
+    </script>
+
+    <script>
+      document
+        .querySelector(".hamburguer-icon")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-right").classList.toggle("active");
+        });
+    </script>
+
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
