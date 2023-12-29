@@ -586,7 +586,7 @@ pre code {
   width: 50%;
 }
 
-.membership-div{
+.membership-div {
   padding-left: 150px !important;
 }
 
@@ -750,7 +750,7 @@ pre code {
   }
 
   .logo {
-    max-width: 80% !important;
+    max-width: 80%;
   }
 
   .row {
@@ -2015,6 +2015,10 @@ pre code {
     padding: 0 0 0 3em;
   }
 
+  .membership-div {
+    padding-left: 60px !important;
+  }
+
   .row.gtr-150.gtr-uniform {
     margin-top: -3em;
   }
@@ -2538,6 +2542,13 @@ header.special {
   object-fit: cover;
   border-radius: 15px;
 }
+
+/* .images-carousel {
+    width: 39vw;
+    height: 75vh;
+    object-fit: cover;
+    border-radius: 15px;
+} */
 
 .carousel-slide img {
   aspect-ratio: 1 / 1;
@@ -3715,23 +3726,25 @@ a {
   }
 
   .nav-right.show {
-    display: flex; /* Show the menu */
+    display: flex;
+    margin-top: 20px;
+    z-index: 2;
   }
 
   .nav-item {
-    margin: 5px 0; /* Spacing between items */
-    padding: 10px; /* Padding inside each item */
-    width: auto; /* Adjust width to fit content */
-    transition: background-color 0.2s ease; /* Smooth background transition */
+    margin: 5px 0;
+    padding: 10px;
+    width: auto;
+    transition: background-color 0.2s ease;
   }
 
   .nav-item:hover {
-    background-color: #f2f2f2; /* Slight highlight on hover */
+    background-color: #f2f2f2;
   }
 
   .nav-link {
-    color: black; /* Text color */
-    text-decoration: none; /* Remove underline */
+    color: black;
+    /text-decoration: none;
   }
 
   .hamburguer-icon {
@@ -3849,5 +3862,6 @@ a {
 
   .nav-right.active {
     display: block;
+    margin-top: 20px;
   }
 }
