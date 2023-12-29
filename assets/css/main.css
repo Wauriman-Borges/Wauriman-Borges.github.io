@@ -2608,6 +2608,10 @@ ul.actions {
   padding-left: 0;
 }
 
+a.button-404 {
+  color: white;
+}
+
 a.button:hover {
   background-color: #f06420;
   color: white;
@@ -2949,7 +2953,7 @@ table.alt tfoot {
 /* Main */
 
 .main {
-  padding: 8em 0 8em 0;
+  padding: 4em 0 4em 0;
 }
 
 .main.style1 {
@@ -3006,6 +3010,7 @@ main.style1.special {
   overflow: hidden;
   position: relative;
   text-align: center;
+  min-height: calc(100vh - 150px);
 }
 
 #header a {
@@ -3065,6 +3070,11 @@ main.style1.special {
   margin-top: 55px;
 }
 
+.inner-404{
+ margin-top: 270px;
+}
+
+
 .major h2 {
   font-weight: bold;
   color: #f06420;
@@ -3099,7 +3109,6 @@ main.style1.special {
 }
 
 #header .actions:after {
-  background: #ffffff;
   content: "";
   height: 100vh;
   left: 50%;
