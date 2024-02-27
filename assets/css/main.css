@@ -458,6 +458,7 @@ pre code {
 
 .schedule {
   padding-bottom: 50px;
+  padding-top: 130px;
 }
 
 .container.xsmall {
@@ -749,6 +750,10 @@ pre code {
     width: 80% !important;
   }
 
+  .times-schedule {
+    padding: 45px !important;
+  }
+
   .logo {
     max-width: 80%;
   }
@@ -1005,6 +1010,10 @@ pre code {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+  }
+
+  .times-schedule {
+    padding: 30px !important;
   }
 
   .row > * {
@@ -2823,12 +2832,16 @@ ul.major-icons li .icon:before {
 
 .container th,
 .container td {
-  padding: 8px;
+  padding: 19px 36px;
   border: 1px solid #ccc;
 }
 
 .container th {
   background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.times-schedule {
   font-weight: bold;
 }
 
@@ -3070,10 +3083,9 @@ main.style1.special {
   margin-top: 55px;
 }
 
-.inner-404{
- margin-top: 270px;
+.inner-404 {
+  margin-top: 270px;
 }
-
 
 .major h2 {
   font-weight: bold;
